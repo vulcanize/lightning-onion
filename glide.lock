@@ -5,7 +5,7 @@ imports:
   version: d31a916ded42d1640b9d89a26f8abd53cc96790c
   subpackages:
   - chacha
-- name: github.com/btcsuite/btcd
+- name: github.com/roasbeef/btcd
   version: bc0944904505aab55e089371a892be2f87883161
   subpackages:
   - btcec
@@ -15,7 +15,6 @@ imports:
 - name: github.com/btcsuite/btclog
   version: 84c8d2346e9fc8c7b947e243b9c24e6df9fd206a
 - name: github.com/btcsuite/btcutil
-  version: d4cc87b860166d00d6b5b9e0d3b3d71d6088d4d4
   subpackages:
   - base58
   - bech32
@@ -23,8 +22,7 @@ imports:
   version: 4f5275f4ebbf6fe7cb772de987fa96ee674460a7
 - name: github.com/go-errors/errors
   version: a6af135bd4e28680facf08a3d206b454abc877a4
-- name: github.com/lightningnetwork/lnd
-  version: 7cf5ebe2650b6798182e10be198c7ffc1f1d6e19
+- name: github.com/vulcanize/lnd
   subpackages:
   - chainntnfs
 - name: golang.org/x/crypto

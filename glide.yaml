@@ -7,12 +7,12 @@ import:
 - package: github.com/vulcanize/lnd
   subpackages:
   - chainntnfs
-- package: github.com/btcsuite/btcd
+- package: github.com/roasbeef/btcd
   subpackages:
   - btcec
   - chaincfg
   - wire
-- package: github.com/btcsuite/btcutil
+- package: github.com/roasbeef/btcutil
 - package: golang.org/x/crypto
   subpackages:
   - ripemd160
